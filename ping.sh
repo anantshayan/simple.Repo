@@ -9,5 +9,3 @@ do
 			echo "$i is not pinging"
 		fi
 done
-
-haha
