@@ -1,0 +1,5 @@
+echo "Enter the two values"
+read a
+read b
+c=`expr $a + $b`
+echo "The addition of two no is=$c"
