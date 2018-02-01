@@ -1,0 +1,24 @@
+#!/usr/bin/bash
+echo -e "Enter the 3 numbers\n"
+read x
+read y
+read z
+
+if [ $x -eq $y ] && [ $y -eq $z ]
+then
+	echo -e "All numbers are same only;please enter different number\n"
+fi
+
+if [ $x -gt $y ] && [ $x -gt $z ]
+then
+	echo -e "$x is bigger\n"
+elif [ $y -gt $x ] && [ $y -gt $z ]
+then
+	echo -e "$y is bigger\n"	 
+
+elif [ $z -gt $x ] && [ $z -gt $y ]
+then
+	echo -e "$z is bigger\n"
+else
+	echo ""
+fi
