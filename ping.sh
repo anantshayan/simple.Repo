@@ -1,6 +1,6 @@
 ##pinging servers
 #!/usr/bin/bash
-for i in `cat file"
+for i in `cat file`
 do
 		ping  -c1 $i >> /dev/null
 		if [ $? -eq 0 ]
