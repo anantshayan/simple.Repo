@@ -1,4 +1,4 @@
-##pinging servers
+##pinging servers is
 #!/usr/bin/bash
 for i in `cat file`
 do
